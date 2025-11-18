@@ -2,7 +2,7 @@
 
 Dieses einfache Web-Tool visualisiert zwei grundlegende mathematische Konzepte: die **Primzahlen** bis zu einer eingegebenen Grenze und die Form einer **Logarithmuskurve** ($\log_{10}(x)$) als Sternchendiagramm.
 
-[Primzahlen](Primzahlen.png)
+![Primzahl](Primzahlen.png)
 
 ## Funktionen
 
