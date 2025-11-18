@@ -18,7 +18,7 @@
 
 <div class="container">
 
-    <!-- LINKS: UNVERÄNDERT — NUR PRIMZAHLEN -->
+    <!-- links primzahlen-->
     <div class="panel left-panel">
         <h2>Primzahlen bis zur eingegebenen Zahl</h2>
 
@@ -30,11 +30,10 @@
         <pre id="primeOutput"></pre>
     </div>
 
-    <!-- RECHTS: ZWEI EINGABEN -->
+    <!-- rechts logarithmus -->
     <div class="panel">
         <h2>Logarithmus</h2>
 
-        <!-- Eingabe 1: Logarithmus -->
         <label for="logLimit">Obergrenze für LOG-Kurve:</label>
         <input type="number" id="logLimit" min="1" value="100">
         <button onclick="zeigeLog()">Logarithmus anzeigen</button>
@@ -48,7 +47,6 @@
 </div>
 
 <script>
-    /* LINKS – PRIMZAHLEN */
     function istPrim(num) {
         if (num < 2) return false;
         for (let i = 2; i <= num / 2; i++) {
